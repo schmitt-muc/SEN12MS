@@ -28,7 +28,8 @@ Current split suggestions:
 - `SEN12MS_holdOutScenes.txt`: this file contains scenes to form a hold-out dataset. The scenes were selected with great care to ensure that both the spatial and seasonal distributions are equal to the ones of the complete dataset. These hold-out scenes contain about 10% of all patches of the dataset.
 
 ### utils
-TODO: Other utilities that can help to load, process, or analyze the data.
+In this folder, other utilities that can help to load, process, or analyze the data can be stored.
+- `Sen12MSOverview.ipynb`: this notebook analyzes the class distribution of the whole SEN12MS dataset and plots the individual ROIs onto a world map
 
 ### dataLoaders
 TODO: Data loaders for efficient loading of the data into common deep learning frameworks.
