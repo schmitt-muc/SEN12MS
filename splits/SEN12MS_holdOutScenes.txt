@@ -19,10 +19,8 @@ ROIs1970_fall/s1_61
 ROIs1970_fall/s1_47
 ROIs1970_fall/s1_30
 ROIs1970_fall/s1_141
-ROIs1017_winter/s1_64
-ROIs1017_winter/s1_146
-ROIs1017_winter/s1_32
-ROIs1017_winter/s1_107
-ROIs1017_winter/s1_135
-
-
+ROIs2017_winter/s1_64
+ROIs2017_winter/s1_146
+ROIs2017_winter/s1_32
+ROIs2017_winter/s1_107
+ROIs2017_winter/s1_135
