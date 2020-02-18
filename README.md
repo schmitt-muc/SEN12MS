@@ -36,7 +36,7 @@ TODO: Data loaders for efficient loading of the data into common deep learning f
 
 ## Models
 The following repositories contain codes for machine learning models adapted to the peculiarities of SEN12MS, so that they can be directly trained and evaluated on SEN12MS (and DFC2020 data, see below):
-- tbd 
+- https://github.com/lukasliebel/dfc2020_baseline Baseline models for semantic segmentation in the SEN12MS/DFC2020 context. This excellent repository created by Lukas Liebel allows to train either a Unet or a Deeplabv3 model without much further ado and allows evaluation on the SEN12MS hold-out set or the DFC2020 datasets.
 
 ## DFC2020
 SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (DFC2020). In the frame of the contest, high-resolution (GSD: 10m) validation and test data is released. The data and more information can be retrieved via the following links:
