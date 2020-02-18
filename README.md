@@ -34,7 +34,11 @@ In this folder, other utilities that can help to load, process, or analyze the d
 ### dataLoaders
 TODO: Data loaders for efficient loading of the data into common deep learning frameworks.
 
-## Other Resources
+## Models
+The following repositories contain codes for machine learning models adapted to the peculiarities of SEN12MS, so that they can be directly trained and evaluated on SEN12MS (and DFC2020 data, see below):
+- tbd 
+
+## DFC2020
 SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (DFC2020). In the frame of the contest, high-resolution (GSD: 10m) validation and test data is released. The data and more information can be retrieved via the following links:
 - http://www.grss-ieee.org/community/technical-committees/data-fusion/ Homepage of the Image Analysis and Data Fusion Committee (IADFC) of the IEEE-GRSS with detailed information about the contest.
 - https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest IEEEDataPort page providing the high-resolution validation and test data for download
