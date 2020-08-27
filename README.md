@@ -44,3 +44,10 @@ SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (D
 - https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest IEEEDataPort page providing the high-resolution validation and test data for download
 - https://competitions.codalab.org/competitions/22289 CodaLab page hosting the actual competition, including forum and leaderboard
 
+## Papers working with SEN12MS Data
+- Hu L, Robinson C, Dilkina B (2020) Model generalization in deep learniing applications for land cover mapping. 
+- Yu Q, Liu W, Li J (2020) Spatial resolution enhancement of land cover mapping using deep convolutional nets. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci. XLIII-B1-2020: 85–89
+- Yuan Y, Tian J, Reinartz P (2020) Generating artificial near infrared spectral band from RGB image using conditional generative adversarial network. ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci. V-3-2020: 279–285
+- Rußwurm M, Wang S, Körner M, Lobell D (2020) Meta-learning for few-shot land cover classification. In: Proc. CVPRW
+- Schmitt M, Prexl J, Ebel P, Liebel L, Zhu XX (2020) Weakly supervised semantic segmentation of satellite images for land cover mapping - challenges and opportunities. ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci. V-3-2020: 795-802
+- Yokoya N, Ghamisi P, Hänsch R, Schmitt M (2020) 2020 IEEE GRSS Data Fusion Contest: Global land cover mapping with weak supervision. IEEE Geosci. Remote Sens. Mag. 8 (1): 154-157
