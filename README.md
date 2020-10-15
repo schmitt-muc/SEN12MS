@@ -45,7 +45,8 @@ SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (D
 - https://competitions.codalab.org/competitions/22289 CodaLab page hosting the actual competition, including forum and leaderboard
 
 ## Papers working with SEN12MS Data
-- Hu L, Robinson C, Dilkina B (2020) Model generalization in deep learniing applications for land cover mapping. Preprint available at https://arxiv.org/abs/2008.10351
+- Abady L, Barni M, Garzelli A, Tondi BL (2020) GAN generation of synthetic multispectral satellite images. In: Proc. SPIE 11533, Image and Signal Processing for Remote Sensing XXVI: 115330L. doi:10.1117/12.2575765
+- Hu L, Robinson C, Dilkina B (2020) Model generalization in deep learning applications for land cover mapping. Preprint available at https://arxiv.org/abs/2008.10351
 - Yu Q, Liu W, Li J (2020) Spatial resolution enhancement of land cover mapping using deep convolutional nets. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci. XLIII-B1-2020: 85–89. https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B1-2020/85/2020/
 - Yuan Y, Tian J, Reinartz P (2020) Generating artificial near infrared spectral band from RGB image using conditional generative adversarial network. ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci. V-3-2020: 279–285. https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2020/279/2020/
 - Rußwurm M, Wang S, Körner M, Lobell D (2020) Meta-learning for few-shot land cover classification. In: Proc. CVPRW. https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html
