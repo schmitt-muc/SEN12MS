@@ -36,7 +36,7 @@ TODO: Data loaders for efficient loading of the data into common deep learning f
 
 ### models  
 In this folder, you can find code for ResNet and DenseNet models aiming at single-label and multi-label scene classification. The files are described as follows:
-- 
+- coming soon
 
 ## Additional resources for SEN12MS-based DL models
 Pre-trained weights and optimization parameters for these models can be downloaded from here: 
