@@ -39,7 +39,7 @@ In this folder, you can find code for ResNet and DenseNet models aiming at singl
 - coming soon
 
 ## Additional resources for SEN12MS-based DL models
-Pre-trained weights and optimization parameters for these models can be downloaded from here: 
+- Pre-trained weights and optimization parameters for these models can be downloaded from here: 
 https://syncandshare.lrz.de/public?folderID=Mlh2b1p5WVRTendxSkFqN3NwNHJI. 
 - In addition, the following repository created by Lukas Liebel contains DeepLabv3 and Unet models adapted to the peculiarities of SEN12MS, so that they can be directly trained and evaluated on SEN12MS (and DFC2020 data, see below) without much further ado:
 https://github.com/lukasliebel/dfc2020_baseline.
