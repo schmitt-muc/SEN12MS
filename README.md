@@ -22,6 +22,16 @@ Link: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W7/1
 
 ## Contents
 The repository contains the following folders:
+
+### labels  
+In this folder, text files containing single labels for every scene (patch) of SEN12MS are provided. They can be used to train scene classification instead of semantic segmentation models:
+- `single-label_IGBPfull_ClsNum`: This file contains scene labels based on the IGBP land cover scheme, represented by actual class numbers.
+- `single-label_IGBP_full_OneHot`: This file contains scene labels based on the IGBP land cover scheme, represented by a one-hot vector encoding.
+- `single-label_IGBPsimple_ClsNum`: This file contains scene labels based on the simplified IGBP land cover scheme, represented by actual class numbers.
+- `single-label_IGBPsimple_OneHot`: This file contains scene labels based on the simplified IGBP land cover scheme, represented by a one-hot vector encoding.
+All these files are available both in plain ASCII (.txt) format, as well as .pkl format. In addition, there is a list of multi-class labels for every scene represented as probability vectors:
+- `IGBP_probability_labels.pkl`
+
 ### splits
 In this folder, text files containing suggestions for splits are stored, pointing either at complete folders or individual files. Due to the folder structure and naming convention of SEN12MS, such file/folder list files should only point to Sentinel-1 data (i.e. with the identifier `_s1_` in folder and/or file name. After reading in such a file, the identifier can easily be replaced to `_s2_` or `_lc_` to address the corresponding Sentinel-2 or land cover data.  
 Current split suggestions:
