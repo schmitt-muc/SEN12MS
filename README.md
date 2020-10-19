@@ -34,7 +34,7 @@ In this folder, other utilities that can help to load, process, or analyze the d
 ### dataLoaders
 TODO: Data loaders for efficient loading of the data into common deep learning frameworks.
 
-## models   
+### models  
 In this folder, you can find code for ResNet and DenseNet models aiming at single-label and multi-label scene classification. The files are described as follows:
 - 
 
