@@ -26,6 +26,9 @@ The repository contains the following folders:
 In this folder, text files containing suggestions for splits are stored, pointing either at complete folders or individual files. Due to the folder structure and naming convention of SEN12MS, such file/folder list files should only point to Sentinel-1 data (i.e. with the identifier `_s1_` in folder and/or file name. After reading in such a file, the identifier can easily be replaced to `_s2_` or `_lc_` to address the corresponding Sentinel-2 or land cover data.  
 Current split suggestions:
 - `SEN12MS_holdOutScenes.txt`: this file contains scenes to form a hold-out dataset. The scenes were selected with great care to ensure that both the spatial and seasonal distributions are equal to the ones of the complete dataset. These hold-out scenes contain about 10% of all patches of the dataset.
+- `train_list.txt`: list of image patches used for training the scene classification models provided in this repository. All patches of this list are NOT contained in the above-mentioned set of hold-out scenes.
+- `val_list.txt`: list of image patches used for validation during the training of the scene classification models provided in this repository. Also these patches are NOT contained in the above-mentioned list of hold-out scenes.
+- `test_list.txt`: list of image patches used for testing. These patches are all from the scenes defined in the hold-out set above.
 
 ### utils
 In this folder, other utilities that can help to load, process, or analyze the data can be stored.
