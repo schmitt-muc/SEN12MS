@@ -34,9 +34,15 @@ In this folder, other utilities that can help to load, process, or analyze the d
 ### dataLoaders
 TODO: Data loaders for efficient loading of the data into common deep learning frameworks.
 
-## Models
-The following repositories contain codes for machine learning models adapted to the peculiarities of SEN12MS, so that they can be directly trained and evaluated on SEN12MS (and DFC2020 data, see below):
-- https://github.com/lukasliebel/dfc2020_baseline Baseline models for semantic segmentation in the SEN12MS/DFC2020 context. This excellent repository created by Lukas Liebel allows to train either a Unet or a Deeplabv3 model without much further ado and allows evaluation on the SEN12MS hold-out set or the DFC2020 datasets.
+## models   
+In this folder, you can find code for ResNet and DenseNet models aiming at single-label and multi-label scene classification. The files are described as follows:
+- 
+
+## Additional resources for SEN12MS-based DL models
+Pre-trained weights and optimization parameters for these models can be downloaded from here: 
+https://syncandshare.lrz.de/public?folderID=Mlh2b1p5WVRTendxSkFqN3NwNHJI. 
+- In addition, the following repository created by Lukas Liebel contains DeepLabv3 and Unet models adapted to the peculiarities of SEN12MS, so that they can be directly trained and evaluated on SEN12MS (and DFC2020 data, see below) without much further ado:
+https://github.com/lukasliebel/dfc2020_baseline.
 
 ## DFC2020
 SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (DFC2020). In the frame of the contest, high-resolution (GSD: 10m) validation and test data is released. The data and more information can be retrieved via the following links:
