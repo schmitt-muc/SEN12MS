@@ -40,12 +40,12 @@ Please note: The python scripts provided in the `classification` folder of this 
 In this folder, text files containing suggestions for splits are stored, pointing either at complete folders or individual files. Due to the folder structure and naming convention of SEN12MS, such file/folder list files should only point to Sentinel-1  or Sentinel-2 data (i.e. with the identifier `_s1_` or `_s2_`in folder and/or file name. After reading in such a file, the identifier can easily be replaced to `_s2_`, `_s1_` or `_lc_`, respectively, to address the corresponding Sentinel-2, Sentinel-1 or land cover data.  
 Current split suggestions:
 - `SEN12MS_holdOutScenes.txt`: this file contains scenes to form a hold-out dataset. The scenes were selected with great care to ensure that both the spatial and seasonal distributions are equal to the ones of the complete dataset. These hold-out scenes contain about 10% of all patches of the dataset.
-- `train_list.txt`: list of image patches used for training the scene classification models provided in this repository. All patches of this list are NOT contained in the above-mentioned set of hold-out scenes.  
+- `train_list`: list of image patches used for training the scene classification models provided in this repository. All patches of this list are NOT contained in the above-mentioned set of hold-out scenes.  
 Please note: One triplet was removed from this list, because the SAR corresponding SAR patch was damaged. The removed file ID is `ROIs1868_summer_s1_146_p202`. The label still exists in the label files, as the corresponding SAR data is not broken.
-- `val_list.txt`: list of image patches used for validation during the training of the scene classification models provided in this repository. Also these patches are NOT contained in the above-mentioned list of hold-out scenes.
-- `test_list.txt`: list of image patches used for testing. These patches are all from the scenes defined in the hold-out set above.
+- `test_list`: list of image patches used for testing. These patches are all from the scenes defined in the hold-out set above.
+- `val_list`: Not provided. Based on your individual considerations, you should extract a subset from the files in `train_list` to be used as validation set. This can be done, e.g., by random sampling, or by selecting specific patches from specific scenes using the SEN12MS file tree structure.
 
-All these files are available both in plain ASCII (.txt) format, as well as .pkl format, with the .pkl files being the ones that area read by the scripts provided in the `classification` folder of this repository.
+The file lists are available both in plain ASCII (.txt) format, as well as .pkl format, with the .pkl files being the ones that area read by the scripts provided in the `classification` folder of this repository.
 
 ### utils
 In this folder, other utilities that can help to load, process, or analyze the data can be stored.
