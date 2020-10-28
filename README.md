@@ -19,6 +19,7 @@ Link: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W7/1
     doi={10.5194/isprs-annals-IV-2-W7-153-2019}
 }
 ```
+If you use the dataset in the context of scientific publications, please cite this reference in your paper!
 
 ## Contents
 The repository contains the following folders:
@@ -52,7 +53,9 @@ In this folder, other utilities that can help to load, process, or analyze the d
 - `Sen12MSOverview.ipynb`: this notebook analyzes the class distribution of the whole SEN12MS dataset and plots the individual ROIs onto a world map
 
 ### classification  
-In this folder, you can find codes for image classification CNNs (e.g. ResNet and DenseNet models) aiming at single-label and multi-label scene classification. The files are described as follows:
+In this folder, you can find codes for image classification CNNs (e.g. ResNet and DenseNet models) aiming at single-label and multi-label scene classification. They were developed using Python 3.7.7 and using several packages (NumPy, Rasterio, Scikit-Learn, TensorboardX, Torch, TorchVision, TQDM). To install the packages run `pip install requirements.txt` with your development environment activated from the `classification` folder.
+
+The files needed for training and evaluating SEN12MS-based classification models are described as follows:
 - `dataset.py`: This python script reads the data from SEN12MS and the probability label file. It converts the probability labels into single-label or multi-label annotations.
 - `main_train.py`: This python script is used to train the model. It requires several input arguments to specify the scenario for training (e.g. label type, simplified/original IGBP scheme, models, learning rate etc.). Here is an example of the input arguments:  
 `CUDA_VISIBLE_DEVICES=0 \  
@@ -89,17 +92,24 @@ All other arguments will be read from the argument .txt file created when callin
 Pre-trained weights and optimization parameters for these models can be downloaded from here: 
 https://syncandshare.lrz.de/getlink/fiCDbqiiSFSNwot5exvUcW1y/trained_models. 
 
-## Additional resources 
+The models' respective input modalities are specified by their suffixes:
+- `_RGB` means that only Sentinel-2 RGB imagery is used 
+- `_s2` indicates that full multi-spectral Sentinel-2 data were used
+- `_s1s2` represents data fusion-based models analyzing both Sentinel-1 and Sentinel-2 data 
+
+## Additional Resources
+
+### Semantic Segmentation 
 The following repository created by Lukas Liebel contains DeepLabv3 and Unet models adapted to the peculiarities of SEN12MS, so that they can be directly trained and evaluated on SEN12MS (and DFC2020 data, see below) without much further ado:
 https://github.com/lukasliebel/dfc2020_baseline.
 
-## DFC2020
+### DFC2020
 SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (DFC2020). In the frame of the contest, high-resolution (GSD: 10m) validation and test data is released. The data and more information can be retrieved via the following links:
 - http://www.grss-ieee.org/community/technical-committees/data-fusion/ Homepage of the Image Analysis and Data Fusion Committee (IADFC) of the IEEE-GRSS with detailed information about the contest.
 - https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest IEEEDataPort page providing the high-resolution validation and test data for download
 - https://competitions.codalab.org/competitions/22289 CodaLab page hosting the actual competition, including forum and leaderboard
 
-## Papers working with SEN12MS Data
+### Papers working with SEN12MS Data
 - Abady L, Barni M, Garzelli A, Tondi BL (2020) GAN generation of synthetic multispectral satellite images. In: Proc. SPIE 11533, Image and Signal Processing for Remote Sensing XXVI: 115330L. https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11533/2575765/GAN-generation-of-synthetic-multispectral-satellite-images/10.1117/12.2575765.full?SSO=1
 - Hu L, Robinson C, Dilkina B (2020) Model generalization in deep learning applications for land cover mapping. Preprint available at https://arxiv.org/abs/2008.10351
 - Yu Q, Liu W, Li J (2020) Spatial resolution enhancement of land cover mapping using deep convolutional nets. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci. XLIII-B1-2020: 85–89. https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B1-2020/85/2020/
