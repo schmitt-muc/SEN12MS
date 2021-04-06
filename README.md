@@ -21,6 +21,22 @@ Link: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W7/1
 ```
 If you use the dataset in the context of scientific publications, please cite this reference in your paper!
 
+There is also a second paper describing a small re-design of the SEN12MS dataset for single-label and multi-label scene classification tasks, including benchmark results on state-of-the-art CNN architectures. It will also be published in the ISPRS Annals in July 2021. In the meantime, you can refer to the following arXiv pre-print:
+> Schmitt M, Wu Y-L (2021) Remote sensing image classification with the SEN12MS dataset. arXiv:2104.00704
+
+Link: https://arxiv.org/abs/2104.00704
+
+```
+@misc{Schmitt2021,
+      title={Remote sensing image classification with the SEN12MS dataset}, 
+      author={Michael Schmitt and Yu-Lun Wu},
+      year={2021},
+      eprint={2104.00704},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 ## Contents
 The repository contains the following folders:
 
