@@ -58,7 +58,7 @@ In this folder, text files containing suggestions for splits are stored, pointin
 Current split suggestions:
 - `SEN12MS_holdOutScenes.txt`: this file contains scenes to form a hold-out dataset. The scenes were selected with great care to ensure that both the spatial and seasonal distributions are equal to the ones of the complete dataset. These hold-out scenes contain about 10% of all patches of the dataset.
 - `train_list`: list of image patches used for training the scene classification models provided in this repository. All patches of this list are NOT contained in the above-mentioned set of hold-out scenes.  
-Please note: One triplet was removed from this list, because the SAR corresponding SAR patch was damaged. The removed file ID is `ROIs1868_summer_s1_146_p202`. The label still exists in the label files, as the corresponding SAR data is not broken.
+Please note: One triplet was removed from this list, because the corresponding SAR patch was damaged. The removed file ID is `ROIs1868_summer_s1_146_p202`. The label still exists in the label files, as the corresponding Sentinel-2 data is not broken.
 - `test_list`: list of image patches used for testing. These patches are all from the scenes defined in the hold-out set above.
 - `val_list`: Not provided. Based on your individual considerations, you should extract a subset from the files in `train_list` to be used as validation set. This can be done, e.g., by random sampling, or by selecting specific patches from specific scenes using the SEN12MS file tree structure.
 
