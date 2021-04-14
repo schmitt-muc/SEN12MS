@@ -41,7 +41,7 @@ Link: https://arxiv.org/abs/2104.00704
 The repository contains the following folders:
 
 ### labels  
-In this folder, text and pickle files containing single labels for every scene (patch) of SEN12MS are provided, following the IGBP land cover scheme. They can be used to train scene classification instead of semantic segmentation models. The class numbers of both the original IGBP scheme and the simplified IGBP scheme can be found in (Schmitt et al., 2000). 
+In this folder, text and pickle files containing single labels for every scene (patch) of SEN12MS are provided, following the IGBP land cover scheme. They can be used to train scene classification instead of semantic segmentation models. The class numbers of both the original IGBP scheme and the simplified IGBP scheme can be found in (Schmitt & Wu, 2021). 
 - `single-label_IGBPfull_ClsNum`: This file contains scene labels based on the full IGBP land cover scheme, represented by actual class numbers.
 - `single-label_IGBP_full_OneHot`: This file contains scene labels based on the full IGBP land cover scheme, represented by a one-hot vector encoding.
 - `single-label_IGBPsimple_ClsNum`: This file contains scene labels based on the simplified IGBP land cover scheme, represented by actual class numbers.
