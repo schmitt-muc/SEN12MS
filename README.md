@@ -121,7 +121,7 @@ https://github.com/lukasliebel/dfc2020_baseline.
 
 ### DFC2020
 SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (DFC2020). In the frame of the contest, high-resolution (GSD: 10m) validation and test data is released. The data and more information can be retrieved via the following links:
-- http://www.grss-ieee.org/community/technical-committees/data-fusion/ Homepage of the Image Analysis and Data Fusion Committee (IADFC) of the IEEE-GRSS with detailed information about the contest.
+- https://www.grss-ieee.org/technical-committees/image-analysis-and-data-fusion/#past-data-fusion-contests Homepage of the Image Analysis and Data Fusion Committee (IADFC) of the IEEE-GRSS with detailed information about the contest.
 - https://ieee-dataport.org/competitions/2020-ieee-grss-data-fusion-contest IEEEDataPort page providing the high-resolution validation and test data for download
 - https://competitions.codalab.org/competitions/22289 CodaLab page hosting the actual competition, including forum and leaderboard
 
