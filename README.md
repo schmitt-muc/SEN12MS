@@ -127,9 +127,12 @@ SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (D
 
 ### Papers working with SEN12MS Data
 - Abady L, Barni M, Garzelli A, Tondi BL (2020) GAN generation of synthetic multispectral satellite images. In: Proc. SPIE 11533, Image and Signal Processing for Remote Sensing XXVI: 115330L. https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11533/2575765/GAN-generation-of-synthetic-multispectral-satellite-images/10.1117/12.2575765.full?SSO=1
+- Ciocarlan A, Stoian A (2021) Ship detection in Sentinel 2 multi-spectral images with self-supervised learning. Remote Sensing 13 (21): 4255. https://doi.org/10.3390/rs13214255 
 - Doi K, Sakurada K, Onishi M, Iwasaki A (2020) GAN-based SAR-to-optical image translation with region information. In: Proc. IGARSS: 2069-2072. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9323085
 - Horvath J, Mas Montserrat D, Delp EJ (2021) Nested attention U-Net: a splicing detection method for satellite images. In: Proc. ICPR 2020 Workshops, LNCS 12666: 516–529. https://link.springer.com/chapter/10.1007%2F978-3-030-68780-9_41 
 - Hu L, Robinson C, Dilkina B (2020) Model generalization in deep learning applications for land cover mapping. Preprint available at https://arxiv.org/abs/2008.10351
+- Jain P, Schoen-Phelan B, Ross R (2021) Multi-modal self-supervised representation learning for Earth
+observation. In: Proc. IGARSS: 3241-3244. https://ieeexplore.ieee.org/document/9553741
 - Kakogeorgiou I, Karantzalos K (2021) Evaluating explainable artificial intelligence methods for multi-label deep learning classification tasks in remote sensing. Preprint available at https://www.researchgate.net/publication/350647715_Evaluating_Explainable_Artificial_Intelligence_Methods_for_Multi-label_Deep_Learning_Classification_Tasks_in_Remote_Sensing/citations
 - Li Y, Li B (2021) Super-resolution of Sentinel-2 images at 10m resolution without reference images. Preprint available at https://doi.org/10.20944/preprints202104.0556.v1
 - Rußwurm M, Wang S, Körner M, Lobell D (2020) Meta-learning for few-shot land cover classification. In: Proc. CVPRW. https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html
@@ -139,3 +142,4 @@ SEN12MS is used as backbone dataset of the 2020 IEEE-GRSS Data Fusion Contest (D
 - Yu Q, Liu W, Li J (2020) Spatial resolution enhancement of land cover mapping using deep convolutional nets. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci. XLIII-B1-2020: 85–89. https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B1-2020/85/2020/
 - Yu, Q, Liu W, Gonçalves WN, Junior JM, Li J (2021) Spatial resolution enhancement for large-scale land cover mapping via weakly supervised deep learning. Photogramm. Eng. Remote Sensing 87 (6): 405-412. https://www.ingentaconnect.com/contentone/asprs/pers/2021/00000087/00000006/art00009
 - Yuan Y, Tian J, Reinartz P (2020) Generating artificial near infrared spectral band from RGB image using conditional generative adversarial network. ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci. V-3-2020: 279–285. https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2020/279/2020/
+- Zhang D, Gade M, Zhang J (2021) SOFNet: SAR-optical fusion network for land cover classification. In: Proc. IGARSS: 2409-2412. https://ieeexplore.ieee.org/document/9554070 
