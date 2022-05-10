@@ -1,0 +1,21 @@
+Copyright notice: 
+
+Copyright © 2021 University of the Bundeswehr, Department of Aerospace Engineering, Institute of Space Technology and Space Applications, Werner-Heisenberg-Weg 39, 85577 Neubiberg, Germany.
+All rights reserved. 
+Contact: Prof. Michael Schmitt, michael.schmitt@unibw.de, +49 89 6004-4426, https://www.unibw.de/lrt9/lrt-9.3/. 
+
+License Terms:
+1)	You are hereby granted a royalty-free, non-exclusive license to use this software and related documentation, including data (the "Software"), for evaluation, educational and research purposes, to make copies (duplicates) of the Software and to use the same, to publish the Software, parts and copies thereof and to make it available to other persons. 
+
+2)	The above copyright notice and the present license terms must be included in all copies, transmissions/disseminations and publications of the software or parts thereof. 
+
+3)	Publications of any kind using the software, parts or copies thereof must contain a proper notice: The above copyright notice in the case of non-scientific publications, or appropriate references (see https://github.com/schmitt-muc/SEN12MS/#sen12ms-toolbox) in the case of scientific publications. 
+
+4)	This license does not allow to use the software, parts or copies of it in a commercial context. For commercial uses, such as sales or marketing in particular, an individual written agreement must be concluded with the licensor. 
+
+5)	Violations of these license terms will result in the termination of the license and the permission to use granted with it. In addition, such violations may as copyright infringements give rise to civil claims against the licensee and may even be subject to criminal prosecution. 
+
+6)	The free granting of rights to use the software in the above-mentioned form is made without warranty. In particular, no guarantees are made with regard to its correctness, accuracy, completeness or usability. The Licensor therefore provides no warranty for the suitability of the software for a specific purpose or for the economic and commercial usability of the software. To the extent permitted by law, the liability of the Licensor, its legal representatives and vicarious agents shall be limited to damages caused intentionally or by gross negligence and excluded for mere financial losses and lost profits as well as damages arising in connection with the use of the Software. Furthermore, there shall be no liability for the infringement of third party property rights by the Licensee as a result of the use of the Software. 
+
+7)	This License Agreement shall be governed by German law excluding the conflict of law provisions. The exclusive place of jurisdiction for disputes arising from or in connection with this agreement is Munich, Germany. 
+
