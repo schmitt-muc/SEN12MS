@@ -9,7 +9,7 @@ License Terms:
 
 2)	The above copyright notice and the present license terms must be included in all copies, transmissions/disseminations and publications of the software or parts thereof. 
 
-3)	Publications of any kind using the software, parts or copies thereof must contain a proper notice: The above copyright notice in the case of non-scientific publications, or appropriate references (see https://github.com/schmitt-muc/SEN12MS/#sen12ms-toolbox) in the case of scientific publications. 
+3)	Publications of any kind using the software, parts or copies thereof must contain a proper notice: The above copyright notice in the case of non-scientific publications, or appropriate references (see https://github.com/schmitt-muc/SEN12MS#publications) in the case of scientific publications. 
 
 4)	This license does not allow to use the software, parts or copies of it in a commercial context. For commercial uses, such as sales or marketing in particular, an individual written agreement must be concluded with the licensor. 
 
