@@ -1,8 +1,10 @@
 # SEN12MS Toolbox
 This repository is supposed to collect tools and utilities for working with the SEN12MS dataset. 
 
+## Dataset Link
 The dataset itself can be downloaded here: https://mediatum.ub.tum.de/1474000
 
+## Publications
 Information about the dataset can be found in two related publications:
 
 The original description of the dataset and its generation is found in
