@@ -3,7 +3,9 @@ This repository is supposed to collect tools and utilities for working with the 
 
 The dataset itself can be downloaded here: https://mediatum.ub.tum.de/1474000
 
-Information about the dataset can be found in the related publication:
+Information about the dataset can be found in two related publications:
+
+The original description of the dataset and its generation is found in
 > Schmitt M, Hughes LH, Qiu C, Zhu XX (2019) SEN12MS - a curated dataset of georeferenced multi-spectral Sentinel-1/2 imagery for deep learning and data fusion. In: ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences IV-2/W7: 153-160
 
 Link: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W7/153/2019/
@@ -19,23 +21,24 @@ Link: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W7/1
     doi={10.5194/isprs-annals-IV-2-W7-153-2019}
 }
 ```
-If you use the dataset in the context of scientific publications, please cite this reference in your paper!
 
-There is also a second paper describing a small re-design of the SEN12MS dataset for single-label and multi-label scene classification tasks, including benchmark results on state-of-the-art CNN architectures. It will also be published in the ISPRS Annals in July 2021. In the meantime, you can refer to the following arXiv pre-print:
-> Schmitt M, Wu Y-L (2021) Remote sensing image classification with the SEN12MS dataset. arXiv:2104.00704
+There is also a second paper describing a small re-design of the SEN12MS dataset for single-label and multi-label scene classification tasks, including benchmark results on state-of-the-art CNN architectures:
+> Schmitt M, Wu Y-L (2021) Remote sensing image classification with the SEN12MS dataset. 
+ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences V-2-2021: 101–106
 
-Link: https://arxiv.org/abs/2104.00704
-
+Link: https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2021/101/2021/
 ```
-@misc{Schmitt2021,
+@inproceedings{Schmitt2021,
       title={Remote sensing image classification with the SEN12MS dataset}, 
       author={Michael Schmitt and Yu-Lun Wu},
       year={2021},
-      eprint={2104.00704},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle={ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+      volume={V-2-2021},
+      pages={101-106},
+      doi={10.5194/isprs-annals-V-2-2021-101-2021}
 }
 ```
+If you use the dataset in the context of scientific publications, please cite the appropriate reference in your paper!
 
 ## Contents
 The repository contains the following folders:
